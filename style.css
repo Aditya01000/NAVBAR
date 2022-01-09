@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:20');
+*{
+    padding: 0;
+    margin: 0;
+}
+body { 
+    font-family: 'poppins', sans-serif;
+    background: url('./lake\ image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px  rgba (0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+header nav  ul {
+    display: flex;
+}
+.logo {
+    color: #069370;
+    font-size:1.85rem ;
+    padding: 0.6em;
+    display: block;
+    font-weight: bolder;
+}
+header nav  ul li a, .logo{
+    text-decoration: none;
+}
+header nav  ul li a {
+    color: #23235e;
+}
+header nav  ul li {
+    list-style: none;
+}
+header nav ul li a, .search {
+    font-size: 1.33rem;
+    padding: 1em;
+    display: block;
+}
+header nav ul li a:hover{
+    background: #069370;
+    color: white;
+    transition: 0.3s;
+}
+
+nav {
+    padding: 0.2em;
+}
+header nav ul li a {
+    font-weight: 550;
+}
+@media all and  (max-width : 1292px) {
+    header{
+        margin: 1.2em;
+    }
+     header nav ul li a {
+        font-size: 1.1rem;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+   
+}
+@media all and  (max-width : 10000px) {
+    header{
+        margin: 1.2em;
+    }
+    
+   
+}
+@media all and (max-width : 1044px ){
+    header{
+        margin: 1.2em;
+    }
+     header nav ul li a {
+        font-size: 1.15rem;
+    }
+    .logo {
+        font-size: 1.4rem;
+    }
+   
+}
+@media all and (max-width : 994px) {
+    header{
+        margin: 1.2em;
+    }
+     header nav ul li a {
+        font-size: 1.1rem;
+    }
+    .logo {
+        font-size: 1.34rem;
+    }
+   
+}
+.fas {
+    display: none;
+    cursor:pointer;
+}
+@media all and (max-width : 812px){
+    .fas {
+        display: block;
+        position: absolute;
+        right: 1.7em;
+        top: 1.2em;
+        font-size: 1.8rem;
+    }
+    nav {
+        display: none;
+    }
+}
+
